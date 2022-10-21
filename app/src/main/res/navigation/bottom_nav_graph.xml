@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/homeFragment">
+    <!--Start Destination for with the hone fragment-->
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodmedia.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.foodmedia.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/videoReelsFragment"
+        android:name="com.example.foodmedia.VideoReelsFragment"
+        android:label="fragment_video_reels"
+        tools:layout="@layout/fragment_video_reels" />
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.foodmedia.FriendsFragment"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.foodmedia.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
